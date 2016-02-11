@@ -1,3 +1,72 @@
-= Index page
+= LA TIENDITA POS
 :toclevels: 1
 :numbered:
+
+== Introducción ==
+Como programador muchas veces nos encontramos con la limitante de no poder hacer todo lo que uno quiere pues existen “lineamientos” de las empresas y esto puede llegar a ser frustrante.
+
+¿Por qué un nuevo POS?
+  la idea de la TIENDITA POS es tener un software empresarial, en el cual se puedan incluir tecnologías deseadas que nos “impiden” utilizar en el trabajo , por otro lado puede funcionar como aprendizaje para estudiantes.
+
+Es por eso que todo lo que se describe a continuación es una simulación de un ambiente real en  este caso una empresa grande, una cadena de tienditas por todo el país.
+
+El punto de  venta tiene como objetivo acceder desde dispositivos móviles así como desde una aplicación web a través de un diseño responsivo para adaptarse a los diferentes tamaños de dispositivos. Para los dispositivos móviles se podrá acceder mediante aplicaciones Android o Ios.
+
+
+== FUNCIONALIDAD ADMINISTRATIVA ==
+
+=== Múltiples puntos de venta.
+La tiendita POS es una red de puntos de ventas, todas están conectadas y comparten información como son: productos, clientes, etc.
+
+Sin embargo aunque todas estén conectadas en la misma red, también existen dueños que tienen su propia rama, es decir su propias sucursales, ellos administran y llevan el control de éstas tiendas.
+
+=== Promociones a nivel red. ===
+un Administrador podrá hacer las promociones para mostrarlas como banners en el puntos de ventas de esta forma todas las tienditas tendrán las mismas promociones. Ejemplo promoción de la semana o mes.
+
+===	Promociones a nivel dueño de una tiendita. ===
+Cada dueño de una o más tienditas podrá crear sus promociones independientes a las de la red.
+Ejemplo: Promoción por el clásico de futbol mexicano (incluye sus propios productos que no comparte con el resto de la red).
+
+===	Tarjetas de puntos. ===
+Por cada compra el cliente acumulara puntos que éstos después podrán ser intercambiados por producto en cualquier tienda.
+
+
+
+== FUNCIONALIDAD DE LA APP  ==
+
+=== APP Web ===
+====	Control de ingresos y existencias. ====
+Cierre de caja diario, panel de alertas cuando un producto esté próximo a agotarse.
+
+==== Reportes. ====
+Se podrán sacar reportes, ejemplo qué producto se vendió más en la semana.
+
+====	Venta offline. ====
+Si durante el día se pierde la conexión a internet, las ventas deben de guardarse localmente, en cuando se restablezca la conexión se hará la sincronización entre con el servidor.
+
+====	Múltiples métodos de pago. ====
+Las formas de pago podrán ser en efectivo (Moneda nacional), tarjetas de crédito o débito, cuentas por cobrar (fiado).
+
+==== Registro de usuarios. ====
+El sistema tendrá que registrar usuarios para poder ejecutar determinadas acciones.
+
+==== Gestión de clientes. ====
+El sistema podrá registrar un cliente para asociar una transacción (pedidos en línea) sin embargo no es necesario que el cliente esté registrado.
+
+
+=== APP para dispositivos móviles ===
+
+==== Ubicación.
+Averiguar la tienda más cercana de acuerdo a la ubicación
+
+====	Compras online. ====
+Una vez seleccionada la tienda se podrá acceder al catálogo de productos y realizar una compra online.
+
+====	Recargas online. ====
+Una vez seleccionada la tienda se podrá hacer una recarga de saldo de celular.
+
+====	Pre Total. ====
+Mediante la App de celular el cliente puede ir sumando cada precio de cada producto para tener la cuenta total, de esta forma el cliente ya sabe cuánto tiene que pagar en caja.
+
+====	Compras inteligentes. ====
+Hacer una compra rápido de acuerdo al historial de compras.
